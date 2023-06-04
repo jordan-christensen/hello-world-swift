@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  HelloWorld
-//
-//  Created by Jordan Christensen on 6/4/23.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -14,6 +7,7 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
+            Text("Everything is awesome.")
         }
         .padding()
     }
