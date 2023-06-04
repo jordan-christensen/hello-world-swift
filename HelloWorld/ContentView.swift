@@ -2,14 +2,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
+        ZStack {
+            
+            Color.red.ignoresSafeArea(.all)
+
             Text("Hello, world!")
-            Text("Everything is awesome.")
+                .padding()
         }
-        .padding()
+        
     }
 }
 
